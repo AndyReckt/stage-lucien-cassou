@@ -1,0 +1,46 @@
+.contactBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 50px;
+}
+
+.contactText {
+    text-align: center;
+}
+
+.contactText h1 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.contactText p {
+    font-size: 18px;
+    color: #666;
+    line-height: 1.5;
+}
+
+.contactText a {
+    color: #006eec;
+}
+
+.contactForm {
+    border: 1px solid #000;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 25%;
+    height: fit-content;
+}
+
+@media (max-width: 768px) {
+    .contactBox {
+        flex-direction: column;
+    }
+
+    .contactForm {
+        width: 80%;
+        margin-top: 20px;
+    }
+}

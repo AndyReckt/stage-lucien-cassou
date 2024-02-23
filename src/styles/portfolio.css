@@ -1,0 +1,40 @@
+.image-and-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    flex-direction: row;
+}
+
+.image-and-desc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.image-desc {
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+@media (min-width: 768px) {
+    .image-desc {
+        margin-left: 5%;
+        flex-basis: 50%;
+        text-align: center;
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 767px) {
+    .content {
+        width: 80%;
+    }
+
+    .image-desc {
+        text-align: center;
+        margin-top: 10px;
+    }
+}
