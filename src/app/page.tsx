@@ -2,9 +2,7 @@
 
 import "@/styles/home.css";
 import Image from 'next/image';
-import { getCurrentImage, getNextImage, getPreviousImage } from "./_images.server";
 
-import { useState, useTransition } from "react";
 import { description, projets } from './_config';
 
 export default function Home() {
@@ -15,7 +13,6 @@ export default function Home() {
           <source src="/clip.mp4" type="video/mp4" />
         </video>
       </div>
-
 
       <div className="content flex">
 
