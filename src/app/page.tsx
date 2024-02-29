@@ -12,7 +12,7 @@ export default function Home() {
     <div className="home">
       <div className="bg-video">
         <video autoPlay muted loop className="video">
-          <source src="/kardia.mp4" type="video/mp4" />
+          <source src="/clip.mp4" type="video/mp4" />
         </video>
       </div>
 
@@ -22,7 +22,7 @@ export default function Home() {
         <h1 className="who my-6 text-5xl">Qui suis-je ?</h1>
 
         <div className="image-and-desc rounded">
-          <Image src="/pp.jpg" alt="moi" width={450} height={360} className="rounded-full w-64 h-64 md:w-96 md:h-auto"/>
+          <Image src="/abio.jpg" alt="moi" width={450} height={360} className="rounded-full w-64 h-64 md:w-96 md:h-auto"/>
           <p className="image-desc">{description.photo_de_profil}</p>
         </div>
 

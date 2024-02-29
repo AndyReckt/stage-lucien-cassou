@@ -8,7 +8,8 @@ import { useState, useTransition } from "react";
 
 function timer(startTransition: (arg0: any) => void, setImage: (arg0: any) => void, nextImage: () => any) {
   setTimeout(() => {
-    setImage(nextImage());
+    nextImage();
+    setImage(getCurrentImage());
   }, 12_000);
 }
 export default function Portfolio() {
